@@ -445,7 +445,7 @@ import axios from "axios";
 import { RootState } from "../store";
 import { ShippingInfo } from "../types";
 // IMPORT: This must match your actual cart slice action name
-import { clearCart } from "src/store/slices/cartSlice.ts"; 
+import { clearCart } from "../store/slices/cartSlice.ts"; 
 
 const DELIVERY_CHARGE = 50;
 const DISCOUNT_PERCENTAGE = 10;
