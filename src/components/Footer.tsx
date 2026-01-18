@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-blue-400">Shopify</h3>
+            <h3 className="text-xl font-bold text-blue-400">Shoplify</h3>
             <p className="text-gray-400 dark:text-gray-500 text-sm">
               Your trusted online shopping destination for quality products at
               unbeatable prices.
@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Shopify Facebook"
+                aria-label="Shoplify Facebook"
               >
                 <Facebook className="h-5 w-5 text-blue-400 hover:text-blue-600 transition-colors" />
               </a>
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Shopify Twitter"
+                aria-label="Shoplify Twitter"
               >
                 <Twitter className="h-5 w-5 text-blue-400 hover:text-blue-600 transition-colors" />
               </a>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Shopify Instagram"
+                aria-label="Shoplify Instagram"
               >
                 <Instagram className="h-5 w-5 text-blue-400 hover:text-blue-600 transition-colors" />
               </a>
