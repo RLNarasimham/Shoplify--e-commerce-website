@@ -24,6 +24,7 @@ import LoginPage from "./components/LoginPage";
 import Checkout from "./pages/Checkout";
 import Success from "./pages/Success";
 import TopPicksPage from "./pages/TopPicksPage";
+import ForgotPasswordPage from "./pages/ForgotPassword.tsx";
 import OrderConfirmation from "./pages/OrderConfirmation";
 
 const queryClient = new QueryClient();
@@ -111,6 +112,7 @@ function AppContent() {
               </main>
             }
           />
+          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         </Routes>
         <Footer />
       </div>
