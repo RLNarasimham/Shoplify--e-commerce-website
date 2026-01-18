@@ -56,7 +56,7 @@ const LoginPage: React.FC = () => {
             <Lock className="h-7 w-7" />
           </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white">
-            Sign in to Shopify
+            Sign in to Shoplify
           </h2>
           <p className="mt-2 text-gray-400 dark:text-gray-400 text-sm">
             Welcome back! Please enter your details below.
