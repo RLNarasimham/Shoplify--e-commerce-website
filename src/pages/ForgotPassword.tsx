@@ -3,7 +3,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { Mail, ArrowLeft, Send } from "lucide-react";
 import { Link } from "react-router-dom";
 import { sendPasswordResetEmail } from "firebase/auth";
-import { auth } from "../services/firebase";
+import { auth } from "../services/firebase.ts";
 
 interface ForgotPasswordForm {
   email: string;
