@@ -89,7 +89,7 @@ const Header: React.FC = () => {
             >
               <HiShoppingBag className="text-blue-600 w-12 h-12" />
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-blue-600 dark:text-blue-400 transition-all hover:scale-105">
-                Shopify
+                Shoplify
               </h1>
             </Link>
             <button
